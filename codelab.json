@@ -3,13 +3,13 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-10-17T10:49:25Z",
-  "id": "newmantestdoc",
+  "updated": "2020-10-20T19:52:39Z",
+  "id": "newmanapitestdoc",
   "duration": 0,
   "title": "Newman Api Testing User Guide",
   "authors": "Manish Srivastava",
   "summary": "This document is regarding test framework designed to test api's with Newman",
-  "source": "1O54nCYrH94iMsIyzJwC_eyfINqBLg1CDM2NXVrCVVH8",
+  "source": "1Nyzuf1x-tSBEd53C_5FzBwvIKRW_fC7NrXt9aqXz2LI",
   "theme": "web",
   "status": [
     "published"
@@ -21,5 +21,5 @@
     "web"
   ],
   "feedback": "https://github.com/manish53/newmantestdoc/issues",
-  "url": "newmantestdoc"
+  "url": "newmanapitestdoc"
 }

@@ -22,55 +22,156 @@
 <body>
   <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
   <google-codelab codelab-gaid=""
-                  id="newmantestdoc"
+                  id="newmanapitestdoc"
                   title="Newman Api Testing User Guide"
                   environment="web"
                   feedback-link="https://github.com/manish53/newmantestdoc/issues">
     
+      <google-codelab-step label="NEWMAN API TESTING USER GUIDE" duration="0">
+        <p><strong>VERSION 1.0</strong></p>
+<h5 is-upgraded><a href="https://drive.google.com/a/applicate.in/open?id=1O54nCYrH94iMsIyzJwC_eyfINqBLg1CDM2NXVrCVVH8" target="_blank"><strong>Document Control</strong></a></h5>
+<table>
+<tr><td colspan="1" rowspan="1"><p>Document Name:</p>
+</td><td colspan="1" rowspan="1"><p>Newman Api Testing User Guide</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Classification:</p>
+</td><td colspan="1" rowspan="1"><p>For technical users</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Document Owner:</p>
+</td><td colspan="1" rowspan="1"><p>Applicate IT Solutions Pvt Ltd</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Document Approver:</p>
+</td><td colspan="1" rowspan="1"><p>Mr. Madhusudan Atmakuri</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Original Document Issue Date:</p>
+</td><td colspan="1" rowspan="1"><p>21-10-2020</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Current Edition:</p>
+</td><td colspan="1" rowspan="1"><p>Version 1.0</p>
+</td></tr>
+</table>
+<h5 is-upgraded><strong>Manual Revision History</strong></h5>
+<table>
+<tr><td colspan="1" rowspan="1"><p>Date</p>
+</td><td colspan="1" rowspan="1"><p>Version</p>
+</td><td colspan="1" rowspan="1"><p>Author</p>
+</td><td colspan="1" rowspan="1"><p>Reviewer</p>
+</td><td colspan="1" rowspan="1"><p>Approver</p>
+</td><td colspan="1" rowspan="1"><p>Comments</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>21-10-2020</p>
+</td><td colspan="1" rowspan="1"><p>1.0</p>
+</td><td colspan="1" rowspan="1"><p>Manish Shrivastav</p>
+</td><td colspan="1" rowspan="1"><p>Madhusudan Atmakuri</p>
+</td><td colspan="1" rowspan="1"><p>Madhusudan Atmakuri</p>
+</td><td colspan="1" rowspan="1"><p>Api Testing User Guide</p>
+</td></tr>
+</table>
+
+
+      </google-codelab-step>
+    
       <google-codelab-step label="Introduction" duration="0">
         <p>This document is regarding test framework designed to test api&#39;s with Newman. Here we are going to learn about setup configuration and its usage. We will also get some brief knowledge about Postman. You can skip this part if you are already familiar with it.</p>
 <p><strong>Postman</strong></p>
-<p class="image-container"><img style="width: 161.50px" src="img\4c43f225255ae730.png"></p>
+<p class="image-container"><img style="width: 161.00px" src="img\a9008bf54d2173b5.png"></p>
 <p>Welcome! Here is a brief summary on how to use Postman in your API projects.</p>
-<p class="image-container"><img alt="Postman" style="width: 620.50px" src="img\4d0c95f79ed68629.jpeg"></p>
+<p class="image-container"><img style="width: 622.00px" src="img\225e10f5f687bd79.png"></p>
 <p>If you&#39;re just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app:</p>
-<ul>
-<li><a href="https://learning.postman.com/docs/getting-started/sending-the-first-request/" target="_blank">Send your first request!</a></li>
-<li>Use the Bootcamp to work through lessons inside Postman—open it at the bottom right of the app.</li>
-<li>Explore <a href="https://explore.postman.com/" target="_blank">templates</a> to try out, like <a href="https://explore.postman.com/templates/7499/learn-by-api" target="_blank">Learn by API</a>, which walks you through API concepts.</li>
-</ul>
+<p>●           <a href="https://learning.postman.com/docs/getting-started/sending-the-first-request/" target="_blank">Send your first request!</a></p>
+<p>●           Use the Bootcamp to work through lessons inside Postman—open it at the bottom right of the app.</p>
+<p>●       Explore<a href="https://explore.postman.com/" target="_blank">templates</a> to try out, like<a href="https://explore.postman.com/templates/7499/learn-by-api" target="_blank">Learn by API</a>, which walks you through API concepts.</p>
 <p>If you&#39;re learning to carry out a specific task or workflow in Postman, check out the following topics to find resources:</p>
+<p>●           <a href="https://learning.postman.com/docs/getting-started/introduction/#making-requests" target="_blank">Making requests</a></p>
+<p>●           <a href="https://learning.postman.com/docs/getting-started/introduction/#testing-apis" target="_blank">Testing APIs</a></p>
+<p>●           <a href="https://learning.postman.com/docs/getting-started/introduction/#building-and-managing-apis" target="_blank">Building and managing APIs</a></p>
+<p>●           <a href="https://learning.postman.com/docs/getting-started/introduction/#publishing-apis" target="_blank">Publishing APIs</a></p>
+<p>●           <a href="https://learning.postman.com/docs/getting-started/introduction/#collaborating-with-your-team" target="_blank">Collaborating with your team</a></p>
+<p>●      <a href="https://learning.postman.com/docs/getting-started/introduction/#developing-with-postman" target="_blank">Developing with Postman</a></p>
+<p>f you&#39;re testing an API, you can use Postman to automate various parts of the process:</p>
+<p>●           <a href="https://learning.postman.com/docs/writing-scripts/test-scripts/" target="_blank">Writing test scripts</a></p>
+<p>●           <a href="https://learning.postman.com/docs/running-collections/intro-to-collection-runs/" target="_blank">Automating workflows with the collection runner</a></p>
+<p>●           <a href="https://learning.postman.com/docs/sending-requests/capturing-request-data/capturing-http-requests/" target="_blank">Capturing HTTP requests</a></p>
+<p>●      <a href="https://learning.postman.com/docs/writing-scripts/script-references/test-examples/" target="_blank">Test script examples</a></p>
+<p>For more information about Postman usage please<a href="https://learning.postman.com/docs/getting-started/introduction/" target="_blank">Click Here.</a></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Project Configuration" duration="0">
+        <p><strong>Project Structure</strong></p>
+<p class="image-container"><img style="width: 624.00px" src="img\4d120c30b80b2c64.png"></p>
+<p>The Newman testing framework solely based on node js implementation which means we will have some configurations which are going to help run Newman through Jenkins.</p>
+<p>1.         Environment : It contains configuration files according to environment. i.e., dev, uat &amp; production.</p>
+<p>2.         Report : It contains helper files which helps to generate after run Newman&#39;s status report.</p>
+<p>3.         Src : It contains postman collections under src\test\resources\newman.</p>
+<p>4.         Section 4 : These are the support files for nodejs implementation.</p>
+<p><strong>Environment Configuration</strong></p>
+<p>As stated in previous section environment configurations helps to setup project and helps use Newman as we do in <strong>Postman Runner.</strong></p>
+<p>The configuration primarily divided into three major environment i.e. <strong>dev</strong>, <strong>uat</strong> &amp; <strong>production</strong>.   </p>
+<p>The configurations are written in JSON format. JSON stands for JavaScript Object Notation. It is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types.</p>
+<p>Before proceeding to next section part if you are not familiar with JSON, we suggest please have a quick tour about it and then proceed or if you know then lets jump to learning about configuration.</p>
+<p>1.     Environment variables</p>
+<p class="image-container"><img style="width: 624.00px" src="img\709f645d5449ff92.png"></p>
+<p>              Here we get to know how we can set Environment Variables in Newman. Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests—and if you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimizes the likelihood of error.</p>
+<p><a href="https://learning.postman.com/docs/sending-requests/variables/#variable-scopes" target="_blank">Postman</a> supports the following<a href="https://learning.postman.com/docs/sending-requests/variables/#variable-scopes" target="_blank">variable scopes</a>:</p>
 <ul>
-<li><a href="https://learning.postman.com/docs/getting-started/introduction/#making-requests" target="_blank">Making requests</a></li>
-<li><a href="https://learning.postman.com/docs/getting-started/introduction/#testing-apis" target="_blank">Testing APIs</a></li>
-<li><a href="https://learning.postman.com/docs/getting-started/introduction/#building-and-managing-apis" target="_blank">Building and managing APIs</a></li>
-<li><a href="https://learning.postman.com/docs/getting-started/introduction/#publishing-apis" target="_blank">Publishing APIs</a></li>
-<li><a href="https://learning.postman.com/docs/getting-started/introduction/#collaborating-with-your-team" target="_blank">Collaborating with your team</a></li>
-<li><a href="https://learning.postman.com/docs/getting-started/introduction/#developing-with-postman" target="_blank">Developing with Postman</a></li>
+<li>Global</li>
+<li>Collection</li>
+<li>Environment</li>
+<li>Data</li>
+<li>Local</li>
 </ul>
-<h3 is-upgraded><strong>Testing APIs</strong></h3>
-<p>If you&#39;re testing an API, you can use Postman to automate various parts of the process:</p>
-<ul>
-<li><a href="https://learning.postman.com/docs/writing-scripts/test-scripts/" target="_blank">Writing test scripts</a></li>
-<li><a href="https://learning.postman.com/docs/running-collections/intro-to-collection-runs/" target="_blank">Automating workflows with the collection runner</a></li>
-<li><a href="https://learning.postman.com/docs/sending-requests/capturing-request-data/capturing-http-requests/" target="_blank">Capturing HTTP requests</a></li>
-<li><a href="https://learning.postman.com/docs/writing-scripts/script-references/test-examples/" target="_blank">Test script examples</a></li>
-</ul>
-<p>For more information about Postman usage please <a href="https://learning.postman.com/docs/getting-started/introduction/" target="_blank">Click Here.</a> </p>
+<p><strong>The highlighted section on above image has a ‘value&#39; object which contains 4 key-value pair:</strong></p>
+<p>1.         enabled : If the provided variable should take participate in test or not.</p>
+<p>2.         key : The name of the key.</p>
+<p>3.         value : The value of key.</p>
+<p>4.         type: The data type of value. It can be text, boolean, numeric etc.</p>
+<p>To know more about variables usage and its usage please follow highlighted hyperlinks or links in disclaimer.</p>
+<p>2.     Execution Order</p>
+<p class="image-container"><img style="width: 344.00px" src="img\9c2c7dd7904f651b.png"></p>
+<p>                 Execution order is an array which contains sequence of request which should get execute in given order. If any request needs to make special request from its response test, they can do it by using<a href="https://learning.postman.com/docs/running-collections/building-workflows/" target="_blank">Postman&#39;s Request Workflows</a>.</p>
+<p>Note: Request name must be unique in order to uniquely identify request.</p>
+<p>3.     Client Configuration<img style="width: 651.63px" src="img\4a3f18ef5e0cdb06.png"></p>
+<table>
+<tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr>
+</table>
+<p>    The config section or client configuration section will contains key-value configuration which helps to establish db connnection, providing dynamic data to requests and giving iteration data to help to test api with multiple data set.</p>
+<p>1.         Client Name:  Here comes the name of the client.</p>
+<p>2.         Description: This defines about client and test and about its intention. Please make it elaborate so it should be understandable that what the test was for and what configuration with client is working.</p>
+<p>3.         Clean: This configuration is of type boolean which can only be true/false. True tells system to run test after cleaning defined database. This included re-creating new tables with updated seed data. If given false, table&#39;s re-creation and seed data part will gets skip out and test will run.</p>
+<p>4.         Seed Data Client Folder Name: It is the name of client folder defined in seed repository. This will help to run client specific seed data after default one.</p>
+<p>5.         Common Data: This section helps to define those configuration which could be common in each iteration. Instead of repeating it on iterations we can write it into this section. If same keys provided in iteration and common data, then iteration data will get replace by common one.</p>
+<p>6.         Iteration Data: These are set of data values that will take participate in collection run. Each iteration can have separate data values so that Api&#39;s can be tested with multiple data sets.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Variable Usage" duration="0">
+        <p>In this section we going to see how to use those dynamic variables that we just learned about in previous section.</p>
+<p>You can use double curly braces to reference variables throughout the Postman user interface. For example, to reference a variable named &#34;username&#34; in your request auth settings, you could use the following syntax with double curly braces around the name:</p>
+<p><code>&#123;&#123;username}}</code></p>
+<p>When you run a request, Postman will resolve the variable and replace it with its current value.</p>
+<p>For example, you could have a request URL referencing a variable as follows:</p>
+<p><code>http://pricey-trilby.glitch.me/customer?id=&#123;&#123;cust_id}}</code></p>
+<p>Postman will send whatever value you currently have stored for the cust_id variable when the request runs. If cust_id is currently 3, the request will be sent to the following URL including query parameter:</p>
+<p><code>http://pricey-trilby.glitch.me/customer?id=3</code></p>
+<p>Alternatively, you could have a request body that accesses a variable by wrapping its reference in double-quotes:</p>
+<p><code>{ &#34;customer_id&#34; : &#34;&#123;&#123;cust_id}}&#34; }</code></p>
+<p>You can use variables in request URLs, parameters, headers, authorization, body, and header presets.</p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Congratulations" duration="0">
-        <p>Congratulations, you&#39;ve successfully gone through the configuration setup and leared about how to use test framework. </p>
-<p>You can now test your api&#39;s with multiple client lob.</p>
+        <p>Congratulations, you&#39;ve successfully gone through the configuration setup and leared about how to use test framework.</p>
+<p>You can now test your api&#39;s with multiple client configuration.</p>
 <h2 is-upgraded><strong>Reference docs</strong></h2>
-<ul>
-<li><a href="https://learning.postman.com/docs/getting-started/introduction/" target="_blank">Postman Docs</a></li>
-<li><a href="https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/" target="_blank">Newman Docs</a></li>
-</ul>
-<p><strong>          Gurgaon Address:</strong> 706-707, 7th floor, Iris tech park, Sector- 48, Gurgaon (122018).</p>
-<p><em>Applicate IT Solutions Pvt. Ltd.                For Internal Use</em></p>
+<p>●       <a href="https://learning.postman.com/docs/getting-started/introduction/" target="_blank">Postman Docs</a></p>
+<p>●       <a href="https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/" target="_blank">Newman Docs</a></p>
+<p>●       <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></p>
+<p><strong>     Gurgaon Address:</strong> 706-707, 7th floor, Iris tech park, Sector- 48, Gurgaon (122018).</p>
+<p><em> Internal Use                                                                                                                Applicate AI </em></p>
 
 
       </google-codelab-step>
